@@ -1,0 +1,13 @@
+.Chip {
+    background-color: rgb(59, 52, 52);
+    border-radius: 25px;
+    width:17%;
+    height:27px;
+    text-align: center;
+    margin: 3.5% 1% 2% 2%;
+}
+.label {
+    font-size: large;
+    color:white;
+    word-break: break-word;
+}

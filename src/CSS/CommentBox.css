@@ -1,0 +1,72 @@
+.Container {
+    border-top : 2px solid lightgray;
+    border-bottom : 2px solid lightgray;
+    display:flex;
+    flex-direction: row;
+    margin:10%;
+    width: 70%;
+   
+}
+.Header {
+    display:flex;
+    flex-direction: row;
+    word-break: break-word;
+}
+.CommentBody {
+   font-size: larger; 
+   word-break: break-word;
+}
+.UserImage {
+    width:20%; 
+    margin-right:1%   
+}
+.Image {
+    width: 65%;
+    height:33%;
+    border-radius: 50%;
+    margin-top:25%
+}
+.timestamp {
+    margin: 3.5% 0 0 0;
+    color: grey;
+    word-break: break-word;
+}
+.button {
+    margin-right: 2%;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: rgb(199, 199, 199)
+}
+.Container:hover .button {
+    color: rgb(59, 58, 58);
+}
+.Container:hover i  {
+    border: solid rgb(59, 58, 58);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.Footer {
+    margin: 3% 0 5% -1%;
+    
+}
+i {
+    border: solid lightgrey;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-right: 5px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-right: 5px;
+    margin-bottom:3px
+  }
