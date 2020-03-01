@@ -1,5 +1,11 @@
 This project contains a generic comment box made in react
 
+Running the project:
+1.Download/Clone the repository 
+2.Run npm install after navigating to root folder to download node_modules dependencies
+3.Run npm start
+
+
 Usage :
 This component fetches dummy data from file CommentData.json. 
 Component at the moment just takes a single comment, not a list.
